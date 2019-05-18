@@ -14,6 +14,9 @@ let asyncDefinition = (word) => {
 		data[word]
 	);
 };
+let asyncSearch = (wordArray) => {
+    
+}
 if (data.hasOwnProperty(array[6])) {
 	let defArray = cleanString.toLowerCase().split(' ');
 	async.each(defArray, (i) => {
@@ -21,6 +24,6 @@ if (data.hasOwnProperty(array[6])) {
 			asyncDefinition(i);
 		}
 	});
-
-	// console.log(array[6], defArray);
 }
+
+
